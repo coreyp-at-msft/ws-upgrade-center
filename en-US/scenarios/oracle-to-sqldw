@@ -1,0 +1,40 @@
+{
+	"displayname": "Migrate Oracle to SQL Data Warehouse",
+	"emailmessage": "Check out the process for migrating from Oracle to SQL Data Warehouse here:",
+	"description": "",
+	"rationale": "SqlDwRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+			"name": "Why migrate?",
+			"items": [{
+					"filelocation": "SqlDwRationaleStatic",
+					"actions": []
+				},
+				{
+					"filelocation": "DbMigrationProcessOverviewStatic",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Migration ",
+			"items": [{
+				"filelocation": "OracleToSqlDwMigrate",
+				"actions": []
+			}]
+		}
+	],
+	"casestudies": [
+
+	],
+	"partners": [{
+		"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
+		}
+	]
+}

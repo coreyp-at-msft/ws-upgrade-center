@@ -1,0 +1,104 @@
+{
+	"displayname": "Migrate MySQL to Azure Database for MySQL",
+	"emailmessage": "Check out the process for migrating from MySQL to Azure Database for MySQL here:",
+	"description": "Azure Database for MySQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
+	"rationale": "AzureMySqlRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "MySqlToAzureMySql-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "MySqlToAzureMySqlEvaluation",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "MySqlToAzureMySqlSchemaMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "MySqlToAzureMySqlDataMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "MySqlToAzureMySqlDataSyncAndCutover_DmsPreview",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlRemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "AzureMySqlOptimization",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [{
+			"filelocation": "Geekwire"
+		},
+		{
+			"filelocation": "Fotable"
+		}
+	],
+	"partners": [{
+			"filelocation": "DataSunrise"
+		},
+		{
+			"filelocation": "DBBest"
+		},
+		{
+			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Satalyst"
+		},
+		{
+			"filelocation": "SNP_Tech"
+		},
+		{
+			"filelocation": "Pragmatic_Works"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "credativ"
+		},
+		{
+			"filelocation": "rhipe"
+		},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
+		},
+		{
+			"filelocation": "Pactera"
+		}
+	]
+}

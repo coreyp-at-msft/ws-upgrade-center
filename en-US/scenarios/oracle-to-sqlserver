@@ -1,0 +1,88 @@
+{
+	"displayname": "Migrate Oracle to SQL Server",
+	"emailmessage": "Check out the process for migrating from Oracle to SQL Server here:",
+	"description": "For clients currently using Oracle, there is no better time to migrate to SQL Server, the industry leading data platform for customers and partners alike.",
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "OracleToSql-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToSqlDiscover",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToSqlAssessment",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToSqlMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "OracleToSqlDataSyncAndCutover",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlOptimization",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [{
+			"filelocation": "Sumitomo"
+		},
+		{
+			"filelocation": "KDS"
+		},
+		{
+			"filelocation": "PTC"
+		}
+	],
+	"partners": [{
+			"filelocation": "Fujitsu"
+		},
+		{
+			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
+		}
+	]
+}

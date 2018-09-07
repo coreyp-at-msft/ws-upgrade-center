@@ -1,0 +1,93 @@
+{
+	"displayname": "Migrate PostgreSQL to Azure Database for PostgreSQL",
+	"emailmessage": "Check out the process for migrating from PostgreSQL to Azure Database for PostgreSQL here:",
+	"description": "Azure Database for PostgreSQL is a fully managed database as a service offering capable of handling mission-critical workloads with predictable performance and dynamic scalability.",
+	"rationale": "AzurePostgreSqlRationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "PostgreSqlToAzurePostgreSql-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "PostgreSqlToAzurePostgreSqlEvaluation",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "PostgreSqlToAzurePostgreSqlSchemaDataMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "PostgreSqlToAzurePostgreSqlDataSyncAndCutover_DmsPreview",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlRemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "AzurePostgreSqlOptimization",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+
+	],
+	"partners": [{
+			"filelocation": "DataSunrise"
+		},
+		{
+			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Satalyst"
+		},
+		{
+			"filelocation": "SNP_Tech"
+		},
+		{
+			"filelocation": "Pragmatic_Works"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "credativ"
+		},
+		{
+			"filelocation": "rhipe"
+		},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
+		},
+		{
+			"filelocation": "Pactera"
+		}
+	]
+}

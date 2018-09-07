@@ -1,0 +1,78 @@
+{
+	"displayname": "Migrate SAP ASE to SQL Server",
+	"emailmessage": "Check out the process for migrating from SAP ASE to SQL Server here:",
+	"description": "SQL Server has a multi-layered approach that provides the most secure database worldwide, making the transition from SAP ASE as well as other servers, simple.",
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationProcessOverviewStatic",
+	"steps": [{
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "SapAseToSql-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SapAseToSqlAssessment",
+					"actions": [{
+						"actiontype": "download",
+						"filelocation": "SSMAForSybaseDownload"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SapAseToSqlMigration",
+					"actions": [{
+						"actiontype": "download",
+						"filelocation": "SSMAForSybaseDownload"
+					}]
+				},
+				{
+					"filelocation": "SapAseToSqlDataSyncAndCutover",
+					"actions": []
+				}
+			]
+		},
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "RemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "PerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlOptimization",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [
+
+	],
+	"partners": [{
+			"filelocation": "DBBest"
+		},
+		{
+			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
+		}
+	]
+}

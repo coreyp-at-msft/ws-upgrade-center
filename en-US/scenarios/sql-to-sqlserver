@@ -1,0 +1,95 @@
+{
+	"displayname": "Upgrade SQL Server to SQL Server",
+	"emailmessage": "Check out the process for upgrade from SQL Server to SQL Server here:",
+	"description": "Customers and partners have touted SQL Server 2017 as the best release. SQL Server 2017 is the most secure, dependable, and integrated system in the industry.",
+	"rationale": "Sql2017RationaleStatic",
+	"overview": "DbMigrationSqlToSqlProcessOverviewStatic",
+	"steps": [{
+			"name": "Pre-migration",
+			"items": [{
+					"filelocation": "SqlToSql-Pre-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlToSqlDiscover",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlToSqlAssessment",
+					"actions": []
+				},
+				{
+					"filelocation": "NoConvert",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Migration",
+			"items": [{
+					"filelocation": "Template-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlToSqlMigration",
+					"actions": []
+				},
+				{
+					"filelocation": "NoDataSyncOrCutover",
+					"actions": []
+				}
+			]
+		},
+
+		{
+			"name": "Post-migration",
+			"items": [{
+					"filelocation": "Template-Post-Mig",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlRemediateApps",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlPerformTests",
+					"actions": []
+				},
+				{
+					"filelocation": "SqlOptimization",
+					"actions": []
+				}
+			]
+		}
+	],
+	"casestudies": [{
+			"filelocation": "Convergent"
+		},
+		{
+			"filelocation": "Derivco"
+		},
+		{
+			"filelocation": "SBI"
+		}
+	],
+	"partners": [{
+			"filelocation": "Fujitsu"
+		},
+		{
+			"filelocation": "QuerySurge"
+		},
+		{
+			"filelocation": "Infosys"
+		},
+		{
+			"filelocation": "rhipe"
+		},
+		{
+			"filelocation": "NayaTech"
+		},
+		{
+			"filelocation": "ScalabilityExperts"
+		}
+	]
+}

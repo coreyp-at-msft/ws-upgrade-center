@@ -1,0 +1,156 @@
+{
+  "menu": [
+    {
+      "title": "Windows Server 2008R2",
+      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/9/9d/Windows_Server_2008_R2_logo.svg",
+      "pages": [
+        {
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2008R2 on-premises",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "WS 2019 in Azure",
+          "longname": "WS 2008R2 in Azure ",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "Windows Server 2012",
+      "logo": "https://johntaurins.files.wordpress.com/2015/06/windows-server-2012-logo1.jpg?w=256",
+      "pages": [
+        {
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2012 on-premises",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "WS 2019 in Azure",
+          "longname": "WS 2012 in Azure",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "Windows Server 2012R2",
+      "logo": "https://www.educ8yourself.com/wp-content/uploads/2017/06/logo_winserver2012R2.png",
+      "pages": [
+        {
+          "name": "WS 2019 On-Prem",
+          "longname": "WS 2019 On-Prem",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "WS 2019 in Azure",
+          "longname": "WS 2019 in Azure",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    },
+    {
+      "title": "Windows Server 2016",
+      "logo": "https://static.spiceworks.com/shared/post/0022/6015/windows-server-2016.png",
+      "pages": [
+        {
+          "name": "WS 2019 On-Prem",
+          "longname": "Windows Server 2019 on-premises",
+          "URL": "/scenario/db2-to-azuresqldb"
+        },
+        {
+          "name": "WS 2019 in Azure",
+          "longname": "WS 2019 in Azure",
+          "URL": "/scenario/db2-to-sqlserver"
+        }
+      ]
+    }
+  ],
+  "commonChoices": [
+    {
+      "text": "WS2016 &rarr; WS2016",
+      "link": "/scenario/WS2016-on-prem-to-WS2019"
+    },
+    {
+      "text": "WS2012 &rarr; WS2016 on-prem",
+      "link": "/scenario/WS2012-on-prem-to-WS2019"
+    },
+    {
+      "text": "WS2012R2 on-prem &rarr; WS2012RS on-prem",
+      "link": "/scenario/WS2012R2-on-prem-to-WS2019"
+    },
+    {
+      "text": "WS2008 on-prem &rarr; WS2008 on Azure",
+      "link": "/scenario/WS2008-on-prem-to-WS2019Azure"
+    }
+  ],
+  "otherTools": [
+    {
+      "text": "Azure Database Migration Service (DMS)",
+      "url": "https://aka.ms/dms"
+    },
+    {
+      "text": "Data Migration Assistant (DMA)",
+      "url": "https://aka.ms/dma"
+    },
+    {
+      "text": "SQL Server Migration Assistant (SSMA)",
+      "url": "https://aka.ms/ssma"
+    },
+    {
+      "text": "Database Experimentation Assistant (DEA)",
+      "url": "https://aka.ms/dea-tool"
+    }
+  ],
+  "caseStudies": [
+    {
+      "filelocation": "Floatel"
+    },
+    {
+      "filelocation": "Infosys"
+    },
+    {
+      "filelocation": "HollandAmerica"
+    },
+    {
+      "filelocation": "Geekwire"
+    },
+    {
+      "filelocation": "Fotable"
+    },
+    {
+      "filelocation": "Vipps"
+    }
+  ],
+  "partners": [
+    {
+      "filelocation": "Attunity"
+    },
+    {
+      "filelocation": "Striim"
+    },
+    {
+      "filelocation": "Ispirer"
+    },
+    {
+      "filelocation": "Datometry"
+    },
+    {
+      "filelocation": "Morphis"
+    },
+    {
+      "filelocation": "Corent"
+    },
+    {
+      "filelocation": "Informatica"
+    },
+    {
+      "filelocation": "QuerySurge"
+    },
+    {
+      "filelocation": "Movere"
+    },
+    {
+      "filelocation": "Cloudamize"
+    }
+  ]
+}

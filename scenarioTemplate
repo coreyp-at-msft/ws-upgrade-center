@@ -1,0 +1,67 @@
+/*
+
+DO NOT REMOVE OR EDIT THIS FILE.
+Instead, copy it and paste it to a new location, name it, and edit it from there.
+
+*/
+// After pasting this to the new location, you may delete everything from this line and above
+
+{
+	"displayname": "SQL Server to SQL Server 2016",
+	"emailmessage": "Check out the migration process from SQL Server to SQL Server 2016 here:",
+	"description": "Customers and partners have touted SQL Server 2016 as the best release. The SQL Server 2016 is the most secure, dependable, and integrated system in the industry.",
+	"steps": [
+		{
+			"name": "Migration Planning",
+			"items": [
+				{
+					"filelocation": "licensing",
+					"actions": [
+						{
+							"actiontype": "forwardlink",
+							"filelocation": " \"tcocalculator\""
+						},
+						{
+							"actiontype": "download",
+							"filelocation": "MAPToolkit"
+						}
+					]
+				},
+				{
+					"filelocation": "costbenefitanalysis",
+					"actions": " ",
+					[]
+				}
+			]
+		},
+		{
+			"name": "Post-Migration",
+			"items": [
+				{
+					"filelocation": "migration",
+					"actions": " ",
+					[]
+				}
+			]
+		}
+	],
+	"casestudies": [
+		{
+			"filelocation": "Convergent"
+		},
+		{
+			"filelocation": "Derivco"
+		},
+		{
+			"filelocation": "SBI"
+		}
+	],
+	"partners": [
+		{
+			"filelocation": "Fujitsu"
+		},
+		{
+			"filelocation": "DSP"
+		}
+	]
+}
