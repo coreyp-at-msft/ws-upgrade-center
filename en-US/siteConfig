@@ -2,10 +2,10 @@
   "menu": [
     {
       "title": "Windows Server 2008R2",
-      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/9/9d/Windows_Server_2008_R2_logo.svg",
+      "logo": "https://i.imgur.com/2h9bV7f.jpg",
       "pages": [
         {
-          "name": "WS 2019 On-Prem",
+          "name": "WS 2016 On-Prem",
           "longname": "Windows Server 2008R2 on-premises",
           "URL": "/scenario/db2-to-azuresqldb"
         },
@@ -18,7 +18,7 @@
     },
     {
       "title": "Windows Server 2012",
-      "logo": "https://johntaurins.files.wordpress.com/2015/06/windows-server-2012-logo1.jpg?w=256",
+      "logo": "https://i.imgur.com/QrkDfOY.jpg",
       "pages": [
         {
           "name": "WS 2019 On-Prem",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Windows Server 2012R2",
-      "logo": "https://www.educ8yourself.com/wp-content/uploads/2017/06/logo_winserver2012R2.png",
+      "logo": "https://i.imgur.com/uERJd27.jpg",
       "pages": [
         {
           "name": "WS 2019 On-Prem",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Windows Server 2016",
-      "logo": "https://static.spiceworks.com/shared/post/0022/6015/windows-server-2016.png",
+      "logo": "https://i.imgur.com/K2ZpKM1.jpg",
       "pages": [
         {
           "name": "WS 2019 On-Prem",
@@ -123,34 +123,13 @@
   ],
   "partners": [
     {
-      "filelocation": "Attunity"
+      "filelocation": "HPE"
     },
     {
-      "filelocation": "Striim"
+      "filelocation": "NEC"
     },
     {
-      "filelocation": "Ispirer"
-    },
-    {
-      "filelocation": "Datometry"
-    },
-    {
-      "filelocation": "Morphis"
-    },
-    {
-      "filelocation": "Corent"
-    },
-    {
-      "filelocation": "Informatica"
-    },
-    {
-      "filelocation": "QuerySurge"
-    },
-    {
-      "filelocation": "Movere"
-    },
-    {
-      "filelocation": "Cloudamize"
+      "filelocation": "Avanade"
     }
   ]
 }
