@@ -1,2 +1,2 @@
 <!-- Azure Migration -->
-We do not have a good page for Azure migration at this time, please refer to https://azure.microsoft.com/mediahandler/files/resourcefiles/azure-migration-guide-for-windows-server/Azure_Migration_Guide_for_Windows_Server.pdf for your needs.
+For now, we will link [here](https://azure.microsoft.com/en-us/resources/azure-migration-guide-for-windows-server/en-us/) for all Azure migration scenarios (2012, 2012 R2, 2016) except for 2008 R2 which will link [here](https://azure.microsoft.com/en-us/migration/windows-server/).
