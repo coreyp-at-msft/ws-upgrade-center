@@ -10,7 +10,7 @@
           "URL": "/scenario/WS2008R2-on-prem-to-WS2016"
         },
         {
-          "name": "WS 2019 in Azure"
+          "name": "WS 2019 in Azure",
           "longname": "WS 2008R2 in Azure ",
           "URL": "https://azure.microsoft.com/mediahandler/files/resourcefiles/azure-migration-guide-for-windows-server/Azure_Migration_Guide_for_Windows_Server.pdf"
         }
