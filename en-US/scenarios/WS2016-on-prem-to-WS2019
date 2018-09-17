@@ -6,60 +6,35 @@
 	"rationale": "SqlDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
-			"name": "Pre-migration",
-			"items": [{
-					"filelocation": "Template-Pre-Mig",
-					"actions": []
-				}				
-			]
-		},
-		{
-			"name": "Migration",
-			"items": [{
-					"filelocation": "Template-Mig",
-					"actions": []
-				}
-			]
-		},
-		{
-			"name": "Post-migration",
-			"items": [{
-					"filelocation": "Template-Post-Mig",
-					"actions": []
-				}
-			]
-		}
+      "name": "Pre-upgrade",
+      "items": [
+        {
+          "filelocation": "Pre-WS2016To2019",
+          "actions": []
+        }
+      ]
+    },
+    {
+      "name": "Upgrade",
+      "items": [
+        {
+          "filelocation": "WS2016To2019",
+          "actions": []
+        }
+      ]
+    },
+    {
+      "name": "Post-Upgrade",
+      "items": [
+        {
+          "filelocation": "Post-WS2016To2019",
+          "actions": []
+        }
+      ]
+    }
 	],
-	"casestudies": [{
-			"filelocation": "Sumitomo"
-		},
-		{
-			"filelocation": "KDS"
-		},
-		{
-			"filelocation": "PTC"
-		}
+	"casestudies": [
 	],
-	"partners": [{
-			"filelocation": "Fujitsu"
-		},
-		{
-			"filelocation": "DBBest"
-		},
-		{
-			"filelocation": "DataSunrise"
-		},
-		{
-			"filelocation": "QuerySurge"
-		},
-		{
-			"filelocation": "Infosys"
-		},
-		{
-			"filelocation": "rhipe"
-		},
-		{
-			"filelocation": "ScalabilityExperts"
-		}
+	"partners": [
 	]
 }

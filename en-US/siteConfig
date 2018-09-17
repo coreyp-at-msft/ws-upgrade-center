@@ -7,7 +7,7 @@
         {
           "name": "WS 2016 On-Prem",
           "longname": "Windows Server 2008R2 on-premises",
-          "URL": "/scenario/db2-to-azuresqldb"
+          "URL": "/scenario/WS2008R2-on-prem-to-WS2019"
         },
         {
           "name": "WS 2019 in Azure",
@@ -23,7 +23,7 @@
         {
           "name": "WS 2019 On-Prem",
           "longname": "Windows Server 2012 on-premises",
-          "URL": "/scenario/db2-to-azuresqldb"
+          "URL": "/scenario/WS2012-on-prem-to-WS2019"
         },
         {
           "name": "WS 2019 in Azure",
@@ -39,7 +39,7 @@
         {
           "name": "WS 2019 On-Prem",
           "longname": "WS 2019 On-Prem",
-          "URL": "/scenario/db2-to-azuresqldb"
+          "URL": "/scenario/WS2012R2-on-prem-to-WS2019"
         },
         {
           "name": "WS 2019 in Azure",
@@ -55,7 +55,7 @@
         {
           "name": "WS 2019 On-Prem",
           "longname": "Windows Server 2019 on-premises",
-          "URL": "/scenario/db2-to-azuresqldb"
+          "URL": "/scenario/WS2016-on-prem-to-WS2019"
         },
         {
           "name": "WS 2019 in Azure",
