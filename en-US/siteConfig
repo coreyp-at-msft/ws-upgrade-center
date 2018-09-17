@@ -12,7 +12,7 @@
         {
           "name": "WS 2019 in Azure",
           "longname": "WS 2008R2 in Azure ",
-          "URL": "/scenario/db2-to-sqlserver"
+          "URL": "/scenario/WS2008R2-on-prem-to-WS2019Azure"
         }
       ]
     },
@@ -28,7 +28,7 @@
         {
           "name": "WS 2019 in Azure",
           "longname": "WS 2012 in Azure",
-          "URL": "/scenario/db2-to-sqlserver"
+          "URL": "/scenario/WS2012-on-prem-to-WS2019Azure"
         }
       ]
     },
@@ -44,7 +44,7 @@
         {
           "name": "WS 2019 in Azure",
           "longname": "WS 2019 in Azure",
-          "URL": "/scenario/db2-to-sqlserver"
+          "URL": "/scenario/WS2012R2-on-prem-to-WS2019Azure"
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "name": "WS 2019 in Azure",
           "longname": "WS 2019 in Azure",
-          "URL": "/scenario/db2-to-sqlserver"
+          "URL": "/scenario/WS2016-on-prem-to-WS2019Azure"
         }
       ]
     }
