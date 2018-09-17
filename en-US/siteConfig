@@ -7,7 +7,7 @@
         {
           "name": "WS 2016 On-Prem",
           "longname": "Windows Server 2008R2 on-premises",
-          "URL": "/scenario/WS2008R2-on-prem-to-WS2019"
+          "URL": "/scenario/WS2008R2-on-prem-to-WS2016"
         },
         {
           "name": "WS 2019 in Azure",

@@ -1,14 +1,14 @@
 
 {
-	"displayname": "Windows Server Upgrade from WS2008-on-prem-to-WS2019Azure",
-	"emailmessage": "Check out the process for migrating from Windows Server 2008 to Windows Server 2019 on Azure here:",
+	"displayname": "Windows Server Upgrade from WS2008R2 to Windows Server 2016",
+	"emailmessage": "Check out the process for migrating from Windows Server 2008R2 to Windows Server 2019 on Azure here:",
 	"description": "To take advantage of new features in Windows Server 2016, deploy new hardware, or install Windows Server 2016 in a virtual machine on an existing host. Some new features work best on a Windows Server 2016 physical host running The Azure SQL Database is capable of handling mission-critical workloads predictably and efficiently, aiding the transition process from other databases, like Access.",
 	"rationale": "SqlDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
 			"name": "Pre-upgrade",
 			"items": [{
-					"filelocation": "Pre-WS2008R2To2019",
+					"filelocation": "Pre-WS2008R2To2016",
 					"actions": []
 				}
 			]
@@ -17,7 +17,7 @@
 			"name": "Upgrade",
       "items": [
         {
-          "filelocation": "WS2008R2To2019",
+          "filelocation": "WS2008R2To2016",
           "actions": []
         }
       ]
@@ -26,7 +26,7 @@
 			"name": "Post-Upgrade",
       "items": [
         {
-          "filelocation": "Post-WS2008R2To2019",
+          "filelocation": "Post-WS2008R2To2016",
           "actions": []
         }
       ]
