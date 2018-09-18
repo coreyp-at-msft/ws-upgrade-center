@@ -54,7 +54,7 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Run **ipconfig /all** and save the output:
 
-    ![](https://winserupgrade.visualstudio.com/_git/Migration%20Playbook/pullrequest/10?_a=overviewmedia/5bd539fa55d948d0c3d3c10191499a6c.png)
+    ![](https://https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/5bd539fa55d948d0c3d3c10191499a6c.png)
 
 - Use the Server Manager to list the Roles and Features installed on the server.
 
