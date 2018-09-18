@@ -1,7 +1,7 @@
 <!-- Pre-upgrade -->
 Summary: Windows Server 2016 can be upgraded to Windows 2019 by running Windows Server 2019 setup.exe in a single step.
 
-In-place Upgrade is supported for Windows Server 2016 on physicaL hardware, and in in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2016 Virtual Machines to upgrade to Windows Server 2019 ñ check with your cloud provider.
+In-place Upgrade is supported for Windows Server 2016 on physicaL hardware, and in in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2016 Virtual Machines to upgrade to Windows Server 2019 ‚Äì check with your cloud provider.
 
 An alternative to In-place Upgrade is to migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
 
@@ -9,7 +9,7 @@ An alternative to In-place Upgrade is to migrate (re-deploy) applications and da
 
    - Customers using Windows Server 2016 Storage Spaces Direct (S2D) clusters (also known as Software Defined Data Center [SDDC] and Hyper-Converged Infrastructure [HCI]) should contract Microsoft for guidance before upgrading these clusters.
 
-  - Windows Servers configured to ìBoot from VHDî cannot be upgraded using In-place Upgrade.
+  - Windows Servers configured to ‚ÄúBoot from VHD‚Äù cannot be upgraded using In-place Upgrade.
 
 ### Planning for In-place Upgrade
 
@@ -51,22 +51,22 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Run **systeminfo.exe** and save the output:
 
-    ![](media/0b6bc37b6da1be1685bf5aeabf949f10.png)
+    ![](https://winserupgrade.visualstudio.com/_git/Migration%20Playbook/pullrequest/10?_a=overviewmedia/0b6bc37b6da1be1685bf5aeabf949f10.png)
 
 - Run **ipconfig /all** and save the output:
 
-    ![](media/bfee62abfa929137f3eafe043b38b8e8.png)
+    ![](https://winserupgrade.visualstudio.com/_git/Migration%20Playbook/pullrequest/10?_a=overviewmedia/bfee62abfa929137f3eafe043b38b8e8.png)
 
 - Run **Get-WindowsFeature** and save the output:
 
-    ![](media/82742223b3dd3e5567b6a8a48f463ea4.png)
+    ![](https://winserupgrade.visualstudio.com/_git/Migration%20Playbook/pullrequest/10?_a=overviewmedia/82742223b3dd3e5567b6a8a48f463ea4.png)
 
 - Run **RegEdit** and capture the value of the the
     **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive
-    ñ this will show the exact version (**BuildLabEx**) and edition
+    ‚Äì this will show the exact version (**BuildLabEx**) and edition
     (**EditionID**) of Windows Server:
 
-    ![](media/b82ffbb1d0b1f684db9f7d677db65c42.png)
+    ![](https://winserupgrade.visualstudio.com/_git/Migration%20Playbook/pullrequest/10?_a=overviewmedia/b82ffbb1d0b1f684db9f7d677db65c42.png)
 
 ### Before proceeding with the In-place Upgrade:
 
