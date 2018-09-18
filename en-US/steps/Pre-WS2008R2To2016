@@ -50,7 +50,7 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Run **systeminfo.exe** and save the output:
 
-    ![](https://github.com/coreyp-at-msft/ws-upgrade-center/blob/dev/en-US/media/56c888b17ad99943db33e9898792c7e8.png)
+    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/56c888b17ad99943db33e9898792c7e8.png)
 
 - Run **ipconfig /all** and save the output:
 
