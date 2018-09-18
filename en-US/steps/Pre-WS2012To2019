@@ -48,7 +48,7 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Run **systeminfo.exe** and save the output:
 
-    ![](media/3227919c53ffae4e5553ed993552d935.png)
+    ![](https://winserupgrade.visualstudio.com/_git/Migration%20Playbook/pullrequest/10?_a=overviewmedia/3227919c53ffae4e5553ed993552d935.png)
 
 - Run **ipconfig /all** and save the output:
 
