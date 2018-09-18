@@ -5,14 +5,9 @@
       "logo": "https://i.imgur.com/2h9bV7f.jpg",
       "pages": [
         {
-          "name": "WS 2016 On-Prem",
+          "name": "Windows Server 2016",
           "longname": "Windows Server 2008R2 on-premises",
           "URL": "/scenario/WS2008R2-on-prem-to-WS2016"
-        },
-        {
-          "name": "WS 2019 in Azure",
-          "longname": "WS 2008R2 in Azure",
-          "URL": "https://azure.microsoft.com/en-us/migration/windows-server/"
         }
       ]
     },
@@ -21,14 +16,9 @@
       "logo": "https://i.imgur.com/QrkDfOY.jpg",
       "pages": [
         {
-          "name": "WS 2019 On-Prem",
-          "longname": "Windows Server 2012 on-premises",
+          "name": "Windows Server 2019",
+          "longname": "Windows Server 2019",
           "URL": "/scenario/WS2012-on-prem-to-WS2019"
-        },
-        {
-          "name": "WS 2019 in Azure",
-          "longname": "WS 2012 in Azure",
-          "URL": "https://azure.microsoft.com/en-us/resources/azure-migration-guide-for-windows-server/en-us/"
         }
       ]
     },
@@ -37,15 +27,10 @@
       "logo": "https://i.imgur.com/uERJd27.jpg",
       "pages": [
         {
-          "name": "WS 2019 On-Prem",
-          "longname": "WS 2019 On-Prem",
+          "name": "Windows Server 2019",
+          "longname": "Windows Server 2019 On-Prem",
           "URL": "/scenario/WS2012R2-on-prem-to-WS2019"
-        },
-        {
-          "name": "WS 2019 in Azure",
-          "longname": "WS 2019 in Azure",
-          "URL": "https://azure.microsoft.com/en-us/resources/azure-migration-guide-for-windows-server/en-us/"
-        }
+          }
       ]
     },
     {
@@ -53,73 +38,21 @@
       "logo": "https://i.imgur.com/K2ZpKM1.jpg",
       "pages": [
         {
-          "name": "WS 2019 On-Prem",
+          "name": "Windows Server 2019",
           "longname": "Windows Server 2019 on-premises",
           "URL": "/scenario/WS2016-on-prem-to-WS2019"
-        },
-        {
-          "name": "WS 2019 in Azure",
-          "longname": "WS 2019 in Azure",
-          "URL": "https://azure.microsoft.com/en-us/resources/azure-migration-guide-for-windows-server/en-us/"
         }
       ]
     }
   ],
   "commonChoices": [
-    {
-      "text": "WS2016 &rarr; WS2016",
-      "link": "/scenario/WS2016-on-prem-to-WS2019"
-    },
-    {
-      "text": "WS2012 &rarr; WS2016 on-prem",
-      "link": "/scenario/WS2012-on-prem-to-WS2019"
-    },
-    {
-      "text": "WS2012R2 on-prem &rarr; WS2012RS on-prem",
-      "link": "/scenario/WS2012R2-on-prem-to-WS2019"
-    },
-    {
-      "text": "WS2008 on-prem &rarr; WS2008 on Azure",
-      "link": "/scenario/WS2008-on-prem-to-WS2019Azure"
-    }
+  
   ],
   "otherTools": [
-    {
-      "text": "Azure Database Migration Service (DMS)",
-      "url": "https://aka.ms/dms"
-    },
-    {
-      "text": "Data Migration Assistant (DMA)",
-      "url": "https://aka.ms/dma"
-    },
-    {
-      "text": "SQL Server Migration Assistant (SSMA)",
-      "url": "https://aka.ms/ssma"
-    },
-    {
-      "text": "Database Experimentation Assistant (DEA)",
-      "url": "https://aka.ms/dea-tool"
-    }
+  
   ],
   "caseStudies": [
-    {
-      "filelocation": "Floatel"
-    },
-    {
-      "filelocation": "Infosys"
-    },
-    {
-      "filelocation": "HollandAmerica"
-    },
-    {
-      "filelocation": "Geekwire"
-    },
-    {
-      "filelocation": "Fotable"
-    },
-    {
-      "filelocation": "Vipps"
-    }
+
   ],
   "partners": [
     {
@@ -129,7 +62,7 @@
       "filelocation": "NEC"
     },
     {
-      "filelocation": "Avanade"
+      "filelocation": "Lenovo"
     }
   ]
 }
