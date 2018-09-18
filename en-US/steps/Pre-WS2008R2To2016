@@ -4,7 +4,7 @@
 
 In-place Upgrade is supported for Windows Server 2008 R2 on physical
 hardware, and in in Virtual Machines. Public and private cloud companies
-also support In-place upgrade on Windows Server 2008 R2 Virtual Machines to upgrade to Windows Server 2012 ñ check with your cloud provider.
+also support In-place upgrade on Windows Server 2008 R2 Virtual Machines to upgrade to Windows Server 2012 ‚Äì check with your cloud provider.
 
 An alternative to In-place Upgrade is to migrate (re-deploy) applications and data on a clean install of Windows Server 2016.
 
@@ -12,7 +12,7 @@ An alternative to In-place Upgrade is to migrate (re-deploy) applications and da
 
 #### R2 to Windows Server 2012
 
-Windows Servers configured to ìBoot from VHDî cannot be upgraded using In-place Upgrade.
+Windows Servers configured to ‚ÄúBoot from VHD‚Äù cannot be upgraded using In-place Upgrade.
 
 ### Planning for In-place Upgrade
 
@@ -50,7 +50,7 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Run **systeminfo.exe** and save the output:
 
-    ![](media/56c888b17ad99943db33e9898792c7e8.png)
+    ![](https://github.com/coreyp-at-msft/ws-upgrade-center/blob/dev/en-US/media/56c888b17ad99943db33e9898792c7e8.png)
 
 - Run **ipconfig /all** and save the output:
 
@@ -59,7 +59,7 @@ Before proceeding with In-place Upgrade, collect the following information:
 - Use the Server Manager to list the Roles and Features installed on the server.
 
 13. Run **RegEdit** and capture the value of the the
-    **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive ñ this will show the exact version (**BuildLabEx**) and edition (**EditionID**) of Windows Server:
+    **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive ‚Äì this will show the exact version (**BuildLabEx**) and edition (**EditionID**) of Windows Server:
 
     ![](media/41e70d22670d0f31762c89fa301de7ca.png)
 
