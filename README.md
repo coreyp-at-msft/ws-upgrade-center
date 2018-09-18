@@ -1,4 +1,4 @@
-# Migration Guide - Contributor Guide
+# WIndows Server Upgrade Guide - Contributor Guide
 Microsoft's Windows Server Upgrade Guide is hosted at http://upgradecenter.azurewebsites.net.
  
 The content repository for the Windows Server Upgrade Guide is hosted at https://github.com/coreyp-at-msft/ws-upgrade-center.
