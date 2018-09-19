@@ -5,9 +5,19 @@
       "logo": "https://i.imgur.com/2h9bV7f.jpg",
       "pages": [
         {
+          "name": "Windows Server 2012",
+          "longname": "Windows Server 2008R2 on-premises",
+          "URL": "/scenario/WS2008R2-on-prem-to-WS2012"
+        },
+        {
           "name": "Windows Server 2016",
           "longname": "Windows Server 2008R2 on-premises",
           "URL": "/scenario/WS2008R2-on-prem-to-WS2016"
+        },
+        {
+          "name": "Windows Server 2019",
+          "longname": "Windows Server 2008R2 on-premises",
+          "URL": "/scenario/WS2008R2-on-prem-to-WS2019"
         }
       ]
     },
@@ -15,6 +25,11 @@
       "title": "Windows Server 2012",
       "logo": "https://i.imgur.com/QrkDfOY.jpg",
       "pages": [
+        {
+          "name": "Windows Server 2016",
+          "longname": "Windows Server 2016",
+          "URL": "/scenario/WS2012-on-prem-to-WS2016"
+        },
         {
           "name": "Windows Server 2019",
           "longname": "Windows Server 2019",
