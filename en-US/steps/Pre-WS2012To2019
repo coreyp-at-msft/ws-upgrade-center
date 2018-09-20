@@ -1,7 +1,7 @@
 <!-- Pre-Upgrade -->
 **Summary:** Windows Server 2012 can be upgraded to Windows 2019 in two steps - first by upgrading to Windows Server 2016, and then upgrading Windows Server 2016 to Windows Server 2019.
 
-In-place Upgrade is supported for Windows Server 2012 on physical hardware, and in in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2012 Virtual Machines to upgrade to Windows Server 2016 – check with your cloud provider.
+In-place Upgrade is supported for Windows Server 2012 on physical hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2012 Virtual Machines to upgrade to Windows Server 2016 – check with your cloud provider.
 
 An alternative to In-place Upgrade is to migrate (re-deploy) applications
 and data on a clean install of Windows Server 2016.
