@@ -7,17 +7,17 @@
         {
           "name": "Windows Server 2012",
           "longname": "Windows Server 2008R2 on-premises",
-          "URL": "/scenario/WS2008R2-on-prem-to-WS2012"
+          "URL": "/upgradecenter/scenario/WS2008R2-on-prem-to-WS2012"
         },
         {
           "name": "Windows Server 2016",
           "longname": "Windows Server 2008R2 on-premises",
-          "URL": "/scenario/WS2008R2-on-prem-to-WS2016"
+          "URL": "/upgradecenter/scenario/WS2008R2-on-prem-to-WS2016"
         },
         {
           "name": "Windows Server 2019",
           "longname": "Windows Server 2008R2 on-premises",
-          "URL": "/scenario/WS2008R2-on-prem-to-WS2019"
+          "URL": "/upgradecenter/scenario/WS2008R2-on-prem-to-WS2019"
         }
       ]
     },
@@ -28,12 +28,12 @@
         {
           "name": "Windows Server 2016",
           "longname": "Windows Server 2016",
-          "URL": "/scenario/WS2012-on-prem-to-WS2016"
+          "URL": "/upgradecenter/scenario/WS2012-on-prem-to-WS2016"
         },
         {
           "name": "Windows Server 2019",
           "longname": "Windows Server 2019",
-          "URL": "/scenario/WS2012-on-prem-to-WS2019"
+          "URL": "/upgradecenter/scenario/WS2012-on-prem-to-WS2019"
         }
       ]
     },
@@ -44,7 +44,7 @@
         {
           "name": "Windows Server 2019",
           "longname": "Windows Server 2019 On-Prem",
-          "URL": "/scenario/WS2012R2-on-prem-to-WS2019"
+          "URL": "/upgradecenter/scenario/WS2012R2-on-prem-to-WS2019"
           }
       ]
     },
@@ -55,7 +55,7 @@
         {
           "name": "Windows Server 2019",
           "longname": "Windows Server 2019 on-premises",
-          "URL": "/scenario/WS2016-on-prem-to-WS2019"
+          "URL": "/upgradecenter/scenario/WS2016-on-prem-to-WS2019"
         }
       ]
     }
