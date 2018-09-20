@@ -1,13 +1,15 @@
-## Migration process overview
+## Upgrade paths overview
 
-Migrations should be approached with the same rigor and processes as a full software or hardware project – a  solid methodology is required for success. When planning a migration project, we recommend that you consider the process shown in the following graphic:
+When you upgrade a Windows Server,you move from an existing operating system release to a more recent release while staying on the same hardware. (This is sometimes called "in-place" upgrade.) For example, if your server is running Windows Server 2012, or Windows Server 2012 R2, you can upgrade it to Windows Server 2016. You can upgrade from an evaluation version of the operating system to a retail version, from an older retail version to a newer version, or, in some cases, from a volume-licensed edition of the operating system to an ordinary retail edition.
 
-![SQL Migration Process](https://mpbdevcontent.azureedge.net/Images/MigrationProcess_New.png)
+Windows Server can be upgraded in-place at least one, and sometimes two versions forward. For example, Windows Server 2012 R2 and Windows Server 2016 can be upgraded in-place to Windows Server 2019. The following graphic shows the upgrade paths for Windows Server. Downward pointing arrows represent the multiple upgrades that must be performed on older vesrions to bring them up to Windows Server 2019:
 
-Each phase in the database migration process is briefly described in the following table:
+![Windows Server Upgrade Paths](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/upgrade-paths.png)
+
+The following table describes the upgrade sequence for the major supported Windows Server versions
 
 <table id='overview' class='overview'>
-  <caption>Overview of Database Migration by Phase</caption>
+  <caption>Overview of Windows Server upgrade paths</caption>
   <thead>
     <tr>
       <th class="x-hidden-focus"><strong>Stage</strong></th>
@@ -62,6 +64,6 @@ Each phase in the database migration process is briefly described in the followi
 </span>
 For more detail on a specific phase, see the **Pre-migration**, **Migration**, and **Post-migration** stages.
 
-For comprehensive details on upgrading SQL Server, see the topic [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server).
+For comprehensive details on upgrading Windows Server, see the topic [Upgrade and conversion options for Windows Server](https://docs.microsoft.com/en-us/windows-server/get-started/supported-upgrade-paths).
 
-If you require assistance with your migration, see the [Platform Modernization Alliance](https://www.platformmodernization.org/) site for a list of recommended partners.
+If you require assistance with your upgrade, see the [Platform Modernization Alliance](https://www.platformmodernization.org/) site for a list of recommended partners.
