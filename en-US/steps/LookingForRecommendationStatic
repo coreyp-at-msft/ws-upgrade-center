@@ -1,8 +1,8 @@
 ## Easily build applications for any scenario using a comprehensive and integrated data portfolio
 
-We reccomend you upgrade to the latest version of Windows Server, Windows Server 2019. Running the latest version of Windows Server allows you to use the latest features – including the latest safety features – and delivers the best performance.
+<p>We reccomend you upgrade to the latest version of Windows Server, Windows Server 2019. Running the latest version of Windows Server allows you to use the latest features – including the latest safety features – and delivers the best performance.
 
-Windows Server 2019 is built on the strong foundation of Windows Server 2016 – which continues to see great momentum in customer adoption. Windows Server 2016 is the fastest adopted version of Windows Server, ever! We’ve been busy since its launch at Ignite 2016 drawing insights from your feedback and product telemetry to make this release even better.
+<p>Windows Server 2019 is built on the strong foundation of Windows Server 2016 – which continues to see great momentum in customer adoption. Windows Server 2016 is the fastest adopted version of Windows Server, ever! We’ve been busy since its launch at Ignite 2016 drawing insights from your feedback and product telemetry to make this release even better.
 We also spent a lot of time with customers to understand the future challenges and where the industry is going. Four themes were consistent – Hybrid, Security, Application Platform, and Hyper-converged infrastructure. We bring numerous innovations on these four themes in Windows Server 2019.
 
 ![Windows Server Upgrade Paths](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/server-4-themes.png)
