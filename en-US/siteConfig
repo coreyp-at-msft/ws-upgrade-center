@@ -2,45 +2,60 @@
   "menu": [
     {
       "title": "Windows Server 2008R2",
-      "logo": "https://i.imgur.com/2h9bV7f.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2008R2.jpg",
       "pages": [
+        {
+          "name": "Windows Server 2012",
+          "longname": "Windows Server 2008R2 on-premises",
+          "URL": "/upgradecenter/scenario/WS2008R2-on-prem-to-WS2012"
+        },
         {
           "name": "Windows Server 2016",
           "longname": "Windows Server 2008R2 on-premises",
-          "URL": "/scenario/WS2008R2-on-prem-to-WS2016"
+          "URL": "/upgradecenter/scenario/WS2008R2-on-prem-to-WS2016"
+        },
+        {
+          "name": "Windows Server 2019",
+          "longname": "Windows Server 2008R2 on-premises",
+          "URL": "/upgradecenter/scenario/WS2008R2-on-prem-to-WS2019"
         }
       ]
     },
     {
       "title": "Windows Server 2012",
-      "logo": "https://i.imgur.com/QrkDfOY.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012.jpg",
       "pages": [
+        {
+          "name": "Windows Server 2016",
+          "longname": "Windows Server 2016",
+          "URL": "/upgradecenter/scenario/WS2012-on-prem-to-WS2016"
+        },
         {
           "name": "Windows Server 2019",
           "longname": "Windows Server 2019",
-          "URL": "/scenario/WS2012-on-prem-to-WS2019"
+          "URL": "/upgradecenter/scenario/WS2012-on-prem-to-WS2019"
         }
       ]
     },
     {
       "title": "Windows Server 2012R2",
-      "logo": "https://i.imgur.com/uERJd27.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012R2.jpg",
       "pages": [
         {
           "name": "Windows Server 2019",
           "longname": "Windows Server 2019 On-Prem",
-          "URL": "/scenario/WS2012R2-on-prem-to-WS2019"
+          "URL": "/upgradecenter/scenario/WS2012R2-on-prem-to-WS2019"
           }
       ]
     },
     {
       "title": "Windows Server 2016",
-      "logo": "https://i.imgur.com/K2ZpKM1.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2016.jpg",
       "pages": [
         {
           "name": "Windows Server 2019",
           "longname": "Windows Server 2019 on-premises",
-          "URL": "/scenario/WS2016-on-prem-to-WS2019"
+          "URL": "/upgradecenter/scenario/WS2016-on-prem-to-WS2019"
         }
       ]
     }

@@ -1,7 +1,7 @@
 <!-- Pre-upgrade -->
 Summary: Windows Server 2016 can be upgraded to Windows 2019 by running Windows Server 2019 setup.exe in a single step.
 
-In-place Upgrade is supported for Windows Server 2016 on physicaL hardware, and in in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2016 Virtual Machines to upgrade to Windows Server 2019 – check with your cloud provider.
+In-place Upgrade is supported for Windows Server 2016 on physicaL hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2016 Virtual Machines to upgrade to Windows Server 2019 – check with your cloud provider.
 
 An alternative to In-place Upgrade is to migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
 
