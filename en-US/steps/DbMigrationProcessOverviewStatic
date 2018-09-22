@@ -6,8 +6,8 @@ When you upgrade a Windows Server in-place, you move from an existing operating 
 
 You can upgrade from an evaluation version of the operating system to a retail version, from an older retail version to a newer version, or, in some cases, from a volume-licensed edition of the operating system to an ordinary retail edition. For more information about upgrade options other than in-place upgrade, see [Upgrade and conversion options for Windows Server](https://docs.microsoft.com/en-us/windows-server/get-started/supported-upgrade-paths) on the Windows Server documentation web site.
 
+<hr>
+
 ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/upgrade-paths.png)
 
 <hr>
-
-![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/filler.png)
