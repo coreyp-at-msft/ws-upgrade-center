@@ -39,7 +39,7 @@
     },
     {
       "title": "Windows Server 2012R2",
-      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012R2.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012R2-menu-logo.png",
       "pages": [
         {
           "name": "Windows Server 2019",
