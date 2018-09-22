@@ -62,7 +62,7 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Use the Server Manager to list the Roles and Features installed on the server.
 
-13. Run **RegEdit** and capture the value of the the
+- Run **RegEdit** and capture the value of the the
     **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive – this will show the exact version (**BuildLabEx**) and edition (**EditionID**) of Windows Server:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/41e70d22670d0f31762c89fa301de7ca.png)
