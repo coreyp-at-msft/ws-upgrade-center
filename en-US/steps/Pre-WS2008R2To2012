@@ -10,13 +10,13 @@ also support In-place upgrade on Windows Server 2008 R2 Virtual Machines to upgr
 
 An alternative to In-place Upgrade is to migrate (re-deploy) applications and data on a clean install of Windows Server 2016.
 
-### **Limitations and Known Issues with In-place Upgrade from Windows Server 2008 R2 to Windows Server 2012**
+#### **Limitations and Known Issues with In-place Upgrade from Windows Server 2008 R2 to Windows Server 2012**
 
 <hr width="70%" noshade align="left">
 
 Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
-#### **Planning for In-place Upgrade**
+### **Planning for In-place Upgrade**
 
 <hr width="50%" noshade align="left">
 
