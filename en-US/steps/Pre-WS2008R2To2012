@@ -1,6 +1,6 @@
 <!-- Pre-Upgrade -->
 
-**Summary:** Windows Server 2008 R2 can be upgraded to Windows 2019 in three steps - first by upgrading to Windows Server 2012, and then upgrading Windows Server 2012 to Windows Server 2016, and then upgrading from Windows Server 2016 to Windows Server 2019.
+**Summary:** Windows Server 2008 R2 can be upgraded to Windows Server 2012 in one step.
 
 In-place Upgrade is supported for Windows Server 2008 R2 on physical
 hardware, and in Virtual Machines. Public and private cloud companies
@@ -8,9 +8,7 @@ also support In-place upgrade on Windows Server 2008 R2 Virtual Machines to upgr
 
 An alternative to In-place Upgrade is to migrate (re-deploy) applications and data on a clean install of Windows Server 2016.
 
-### Limitations and Known Issues with In-place Upgrade from Windows Server 2008
-
-#### R2 to Windows Server 2012
+### Limitations and Known Issues with In-place Upgrade from Windows Server 2008 R2 to Windows Server 2012
 
 Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
