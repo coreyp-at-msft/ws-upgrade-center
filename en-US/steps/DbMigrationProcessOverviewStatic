@@ -1,4 +1,5 @@
-# Upgrade paths overview
+## Upgrade paths overview
+
 
 When you upgrade a Windows Server in-place, you move from an existing operating system release to a more recent release while staying on the same hardware. Windows Server can be upgraded in-place at least one, and sometimes two versions forward. For example, Windows Server 2012 R2 and Windows Server 2016 can be upgraded in-place to Windows Server 2019. The following graphic shows the upgrade paths for Windows Server. Downward pointing arrows represent the supported upgrade path moving from older versions up to Windows Server 2019. 
 
