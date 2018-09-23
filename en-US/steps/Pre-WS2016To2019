@@ -30,6 +30,8 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Is there a maintenance window for upgrading this server?
 
+- Is there enough time for a test upgrade on an identical or similar non-production server?
+
 - Who uses this server? Internal users, external users, or both? Have they been informed of the upgrade or maintenance?
 
 - Is there an inventory of what is running on the server? Check the following:
