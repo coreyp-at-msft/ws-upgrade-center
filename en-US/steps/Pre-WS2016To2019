@@ -2,7 +2,8 @@
 
 <hr />
 
-### Upgrade path: Windows Server 2016 can be upgraded to Windows 2019 in a single upgrade process.
+### Upgrade path:
+Windows Server 2016 can be upgraded to Windows 2019 in a single upgrade process.
 
 ### Support:
 In-place Upgrade is supported for Windows Server 2016 on physicaL hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2016 Virtual Machines to upgrade to Windows Server 2019 – check with your cloud provider.
