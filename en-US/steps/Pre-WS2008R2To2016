@@ -3,7 +3,7 @@
 <hr />
 
 ### Upgrade path: 
-Windows Server 2008 R2 can be upgraded to Windows Server 2016 in two upgrade steps - first by upgrading to Windows Server 2012, and then upgrading Windows Server 2012 to Windows Server 2016.
+Windows Server 2008 R2 can be upgraded to Windows Server 2016 in two upgrade processes - first by upgrading to Windows Server 2012, and then upgrading Windows Server 2012 to Windows Server 2016.
 
 ### Support: 
 In-place Upgrade is supported for Windows Server versions 2008 R2 and 2012 on physical hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade of Windows Server versions 2008 R2 and 2012 Virtual Machines – check with your cloud provider.
