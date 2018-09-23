@@ -11,7 +11,7 @@ In-place Upgrade is supported for Windows Server 2008 R2 on physical hardware, a
 ### Alternative:
 Migrate (re-deploy) applications and data on a clean install of Windows Server 2016.
 
-###Limitations:
+### Limitations:
 Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
 ### Planning for In-place Upgrade
