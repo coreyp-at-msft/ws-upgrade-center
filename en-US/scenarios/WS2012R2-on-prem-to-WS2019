@@ -24,7 +24,7 @@
       ]
     },
     {
-      "name": "Post-Upgrade",
+      "name": "Post-upgrade",
       "items": [
         {
           "filelocation": "Post-WS2012R2To2019",
