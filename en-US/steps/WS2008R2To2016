@@ -112,21 +112,21 @@
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/3c7c2a26a6c04697a42c6ffee05b3e15.png)
 
-    Open the Control Panel \| Programs and Features, and Uninstall using the
+14.   Open the Control Panel \| Programs and Features, and Uninstall using the
     right-mouse menu option:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/8a197d726baeb91f5a29dbf7ef05355e.png)
 
-14. When the analysis phase is complete, setup will prompt you to press Back to change choices, or to proceed with the In-place Upgrade, press **Install**:
+15. When the analysis phase is complete, setup will prompt you to press Back to change choices, or to proceed with the In-place Upgrade, press **Install**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/9a51d6b68af9b1cc07e1491cd39e7376.png)
 
-15. Something, something
+16. Something, something
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/54d7be855b119a50d268b8bb86378c23.png)
 
-16. Setup will proceed with the In-place Upgrade, and then the server will reboot:
+17. Setup will proceed with the In-place Upgrade, and then the server will reboot:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/dfce071774c23740ccbe83c2fd06ec14.png)
 
-17. Setup will complete and the server will reboot.
+18. Setup will complete and the server will reboot.
