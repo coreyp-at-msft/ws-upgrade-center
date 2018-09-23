@@ -2,7 +2,7 @@
 
 <hr />
 
-### Upgrade 1 of 2: Windows Server 2008 R2 to Windows Server 2012
+## Upgrade 1 of 2: Windows Server 2008 R2 to Windows Server 2012
 
 1.  Locate the setup media for Windows Server 2012
 
@@ -45,7 +45,7 @@
 11. Setup will complete and the server will reboot.
 
 
-## Upgrade #2 Windows Server 2012 to Windows Server 2016
+## Upgrade 2 of 2: Windows Server 2012 to Windows Server 2016
 
 <hr />
 
