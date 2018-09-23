@@ -2,7 +2,7 @@
 {
 	"displayname": "Upgrade Windows Server 2008 R2 to Windows Server 2012",
 	"emailmessage": "Check out the process for upgrading from Windows Server 2008 R2 to Windows Server 2012",
-	"description": "Upgrade Windows Server 2008 R2 to Windows Server 2012",
+	"description": "How to upgrade Windows Server 2008 R2 to Windows Server 2012",
 	"rationale": "SqlDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
