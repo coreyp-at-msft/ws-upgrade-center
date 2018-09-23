@@ -1,7 +1,7 @@
 {
-	"displayname": "Upgrade from Windows Server 2012 to Windows Server 2016",
+	"displayname": "Upgrade Windows Server 2012 to Windows Server 2016",
 	"emailmessage": "Check out the process for upgrading from Windows Server 2012 to Windows Server 2016",
-	"description": "Upgrade from Windows Server 2012 to Windows Server 2016",
+	"description": "How to upgrade from Windows Server 2012 to Windows Server 2016",
 	"rationale": "SqlDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
