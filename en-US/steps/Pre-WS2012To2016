@@ -2,7 +2,7 @@
 
 <hr />
 
-### Upgrade Path: 
+### Upgrade path: 
 Windows Server 2012 can be upgraded to Windows Server 2016 in one upgrade step.
 
 ### Support:
@@ -11,7 +11,7 @@ In-place Upgrade is supported for Windows Server 2012 on physical hardware, and 
 ### Alternative:
 Migrate (re-deploy) applications and data on a clean install of Windows Server 2016.
 
-### Limitations
+### Limitations:
 Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
 ### Planning for In-place Upgrade
