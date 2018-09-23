@@ -14,7 +14,7 @@ In-place Upgrade is supported for Windows Server 2016 on physicaL hardware, and 
 Migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
 
 ### Limitations:
-- If you are using Windows Server 2016 Storage Spaces Direct (S2D) clusters (also known as Software Defined Data Center [SDDC] and Hyper-Converged Infrastructure [HCI]) you should contract Microsoft for guidance before upgrading these clusters.
+- For the smoothest upgrade experience, if you've deploying software-defined datacenter (SDDC) features like Software-Defined Networking (SDN) or Storage Spaces Direct, you are encouraged to wait for validated hardware from the Windows Server Software-Defined (WSSD) program to become available. The first wave of validated hardware is expected very soon; in mid-January 2019. Until then, please evaluate Windows Server 2019 using the Windows Insider edition, or call Microsoft support for recommendations on how to proceed.
 
 - Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
