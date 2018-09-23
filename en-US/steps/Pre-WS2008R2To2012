@@ -1,12 +1,6 @@
 <!-- Pre-Upgrade -->
 
-hr.light { 
-    width:70%; 
-    margin:0 auto; 
-    border:0px none white; 
-    border-top:1px solid lightgrey; 
-}
-<hr class="light" />
+<hr style="background-color: #dd3333" />
 
 Upgrade Path: Windows Server 2008 R2 can be upgraded to Windows Server 2012 in one step.
 
