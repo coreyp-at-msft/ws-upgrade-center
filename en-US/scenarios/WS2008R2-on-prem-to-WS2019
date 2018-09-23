@@ -1,8 +1,8 @@
 
 {
 	"displayname": "Upgrade from Windows Server 2008 R2 to Windows Server 2019",
-	"emailmessage": "Check out the process for migrating from Windows Server 2008 R2 to Windows Server 2019 on Azure here:",
-	"description": "Upgrade from Windows Server 2008 R2 to Windows Server 2019",
+	"emailmessage": "Check out the process for upgrading from Windows Server 2008 R2 to Windows Server 2019",
+	"description": "How to upgrade from Windows Server 2008 R2 to Windows Server 2019",
 	"rationale": "SqlDbRationaleStatic",
 	"overview": "DbMigrationProcessOverviewStatic",
 	"steps": [{
