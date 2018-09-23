@@ -23,7 +23,7 @@
       ]
 		},
 		{
-			"name": "Post-Upgrade",
+			"name": "Post-upgrade",
       "items": [
         {
           "filelocation": "Post-WS2008R2To2019",
