@@ -2,15 +2,19 @@
 
 <hr />
 
-Upgrade Path: Windows Server 2008 R2 can be upgraded to Windows Server 2012 in one upgrade step.
+### Upgrade Path: 
+Windows Server 2008 R2 can be upgraded to Windows Server 2012 in one upgrade step.
 
-Support: In-place Upgrade is supported for Windows Server 2008 R2 on physical hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2008 R2 Virtual Machines to upgrade to Windows Server 2012 – check with your cloud provider.
+### Support:
+In-place Upgrade is supported for Windows Server 2008 R2 on physical hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2008 R2 Virtual Machines to upgrade to Windows Server 2012 – check with your cloud provider.
 
-Alternative: Migrate (re-deploy) applications and data on a clean install of Windows Server 2016.
+### Alternative:
+Migrate (re-deploy) applications and data on a clean install of Windows Server 2016.
 
-Limitations: Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
+###Limitations:
+Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
-### **Planning for In-place Upgrade**
+### Planning for In-place Upgrade
 
 <hr  />
 
@@ -61,7 +65,7 @@ Before proceeding with In-place Upgrade, collect the following information:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/41e70d22670d0f31762c89fa301de7ca.png)
 
-### **Before proceeding with the In-place Upgrade
+### Before proceeding with the In-place Upgrade
 
 <hr />
 
