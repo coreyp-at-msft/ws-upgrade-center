@@ -1,5 +1,3 @@
-<hr />
-
 <!-- Pre-Upgrade -->
 
 <hr />
@@ -16,7 +14,7 @@ Migrate (re-deploy) applications and data on a clean install of Windows Server 2
 ### Limitations:
 Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
-<hr />
+
 
 ## Planning for In-place Upgrade
 
@@ -45,7 +43,7 @@ Before proceeding with In-place Upgrade, collect the following information:
     - Are any of the server disks BitLocker protected?
 
     - Is the server part of a Failover Cluster? Note that Failover Clusters have separate migration options.
-**
+
 - How often is the server backed-up? Have backups ever been successfully restored (applied) to the server or applications?
 
 - What backup software is used?
@@ -69,7 +67,7 @@ Before proceeding with In-place Upgrade, collect the following information:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/41e70d22670d0f31762c89fa301de7ca.png)
 
-<hr />
+
 
 ## Before proceeding with the In-place Upgrade
 
