@@ -45,6 +45,7 @@
 11. Setup will complete and the server will reboot.
 
 ## Post Upgrade: Windows Server 2012
+
 <hr />
 
 1. After Setup has completed installing and rebooted the sever, login to check that the server has been successfully upgraded. If you selected Windows Server 2012 Standard or Datacenter Desktop Edition, you should see the Server Manager window:
