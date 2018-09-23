@@ -1,6 +1,6 @@
 {
   "displayname": "Upgrade Windows Server 2012 R2 to Windows Server 2019",
-  "emailmessage": "Check out the process for upgrading Windows Server 2012 R2 to Windows Server 2019",
+  "emailmessage": "Check out the process for upgrading Windows Server 2012 R2 to Windows Server 2019 here:",
   "description": "How to upgrade Windows Server 2012 R2 to Windows Server 2019",
   "rationale": "SqlDbRationaleStatic",
   "overview": "DbMigrationProcessOverviewStatic",
