@@ -1,6 +1,6 @@
 
 {
-	"displayname": "Upgrade from Windows Server 2008 R2 to Windows Server 2019",
+	"displayname": "Upgrade Windows Server 2008 R2 to Windows Server 2019",
 	"emailmessage": "Check out the process for upgrading from Windows Server 2008 R2 to Windows Server 2019",
 	"description": "How to upgrade from Windows Server 2008 R2 to Windows Server 2019",
 	"rationale": "SqlDbRationaleStatic",
