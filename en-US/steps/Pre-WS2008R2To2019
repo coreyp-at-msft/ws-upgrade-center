@@ -16,7 +16,7 @@ Migrate (re-deploy) applications and data on a clean install of Windows Server 2
 ### Limitations:
 Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
-### Planning for In-place Upgrade
+## Planning for In-place Upgrade
 
 <hr />
 
