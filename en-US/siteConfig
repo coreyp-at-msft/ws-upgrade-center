@@ -44,7 +44,7 @@
         {
           "name": "Windows Server 2016",
           "longname": "Windows Server 2016 On-Prem",
-          "URL": "/upgradecenter/scenario/WS2012R2To2016"
+          "URL": "/upgradecenter/scenario/WS2012R2-on-prem-to-2016"
           },
         {
           "name": "Windows Server 2019",
