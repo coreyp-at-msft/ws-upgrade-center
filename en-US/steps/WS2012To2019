@@ -18,13 +18,13 @@
 
 <br>
 
-4.  For internet-connected devices, we recommend the **Download updates, drivers and optional features option**, click **Next**:
+4.  For internet-connected devices, we recommend the **Download updates, drivers and optional features option**. Click **Next**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/9bf1135b71ee60f77f78b5995a48952c.png)
 
 <br>
 
-5.  Setup will check the configuration of your computer – please wait
+5.  Setup will check the configuration of your computer – please wait:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/afd76a36717b8fbe6e452643de4452bf.png)
 
@@ -34,7 +34,9 @@
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/f27a1be2a4217317322bc5166f528a14.png)
 
-7. You will be prompted to select the image of the Edition to upgrade to, and click **Next**:
+<br>
+
+7. You will be prompted to select the image of the Edition to upgrade to. Then click **Next**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/bee39ba698dbe1f69fe55112eaaf8a89.png)
 
@@ -54,7 +56,7 @@
 
 10. In the Windows Server 2016 setup.exe, one page says that upgrade is not recommended, in order to encourage customers to prefer clean install. 
 
-    > **Note:** this pages has been removed from Windows Server 2019 setup.exe. Click **Confirm**:
+    > **Note:** this page has been removed from Windows Server 2019 setup.exe. Click **Confirm**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/9a877f6eef7ced554fb1b6e613eb70d6.png)
 
@@ -135,7 +137,7 @@
 
 <br>
 
-6. For internet-connected devices, we recommend the **Download updates, drivers and optional features option**. Clicks **Next**:
+6. For internet-connected devices, we recommend the **Download updates, drivers and optional features option**. Click **Next**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/d02beed2270efba4731b5e43b3214636.png)
 
