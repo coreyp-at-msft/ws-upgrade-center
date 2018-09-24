@@ -6,9 +6,13 @@
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/4d5f364430795e99cdf26e878730e3d5.png)
 
+<br>
+
 2. Run **RegEdit** and check the value of the **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive – the version should be successfully updated to Windows Server 2019.
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/2f2c2c86f36543f8459f736b9aaeb14c.png)
+
+<br>
 
 3. Check that applications are running and that client connections to the applications succeed.
 
