@@ -50,7 +50,9 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - What backup software is used?
 
-- If In-place Upgrade is not successful and the server needs to be rebuilt, are the Windows Server and application install media available? Although it is rare, In-place Upgrade can fail and there should be a plan in-place for this possibility, to minimize server downtime and maintain SLAs.
+- If In-place Upgrade is not successful and the server needs to be rebuilt, are the Windows Server and application install media available? 
+
+   > Although it is rare, In-place Upgrade can fail and there should be a plan in-place for this possibility, to minimize server downtime and maintain SLAs.
 
 - Is the server fully patched? It is strongly recommended that the server is fully patched prior to In-place Upgrade.
 
