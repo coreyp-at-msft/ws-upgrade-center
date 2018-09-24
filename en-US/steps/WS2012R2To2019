@@ -6,54 +6,76 @@
 
 2. Run **setup.exe** by double-clicking it:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/df2732a721a46af139f348ce645ab78d.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/df2732a721a46af139f348ce645ab78d.png)
+
+<br>
 
 3.  Press **Yes** to enable setup to proceed:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/8b058a9b970c153efdca4bcd465eb0bc.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/8b058a9b970c153efdca4bcd465eb0bc.png)
+
+<br>
 
 4.  For internet-connected devices, we recommend the **Download updates, drivers and optional features option**, press **Next**:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/d02beed2270efba4731b5e43b3214636.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/d02beed2270efba4731b5e43b3214636.png)
+
+<br>
 
 5.  Setup will check the configuration of your computer – please wait
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/3cd5af2a59bd4d0fef2161d3f3fcf927.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/3cd5af2a59bd4d0fef2161d3f3fcf927.png)
+
+<br>
 
 6.  Depending on the distribution channel that you received Windows Server media from (Retail, Volume License, OEM, ODM, etc.) and the license for the server, you may be prompted to enter a licensing key to proceed.
 
 7.  You will be prompted to select the image of the Edition to upgrade to, and press **Next**:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/6865f8bfb71d48c49177c81d4de93304.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/6865f8bfb71d48c49177c81d4de93304.png)
+
+<br>
 
 8. Depending on the distribution channel that you received Windows Server media from (Retail, Volume License, OEM, ODM, etc.) you may be presented with different license agreements. Press **Accept**:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/4e51867e80368a612e754f47dff39e8c.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/4e51867e80368a612e754f47dff39e8c.png)
+
+<br>
 
 9. Setup analysis may recommend that some components be uninstalled, for example **Microsoft Endpoint Protection**:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/0039ea589ce688c22cd7b2d28d039a87.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/0039ea589ce688c22cd7b2d28d039a87.png)
+
+<br>
 
     Using the Control Panel \| Programs and Features, select System Center Endpoint Protection, and select Uninstall using the right-mouse menu:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/a9174da1f48046996a76dc1d38a78a6c.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/a9174da1f48046996a76dc1d38a78a6c.png)
+
+<br>
 
     System Center Endpoint Protection will show uninstall progress:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/a70c44e7e9ca22b03753f0f9d59dfb4d.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/a70c44e7e9ca22b03753f0f9d59dfb4d.png)
 
     When System Center Endpoint Protection has been uninstalled, proceed with setup:
 
 10. For In-place Upgrade, select **Keep personal files and apps** and press **Next**:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/91a80f34d104f29602aada11ccc07c28.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/91a80f34d104f29602aada11ccc07c28.png)
+
+<br>
 
 11. When the analysis phase is complete, setup will prompt you to press Back to change choices, or to proceed with the In-place Upgrade, press **Install**:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/19e9bb1f6d113c95773a7740af2e74c6.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/19e9bb1f6d113c95773a7740af2e74c6.png)
+
+<br>
 
 12. Setup will proceed with the In-place Upgrade, and then the server will reboot:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/148f5f838013bb5f99015532e31c2c8a.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/148f5f838013bb5f99015532e31c2c8a.png)
+
+<br>
 
 13. Setup will complete and the server will reboot.
