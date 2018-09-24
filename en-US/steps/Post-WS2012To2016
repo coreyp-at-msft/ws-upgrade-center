@@ -6,10 +6,14 @@
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/58e0cdaa3f117462739dd2809f6de98f.png)
 
+<br>
+
 2. Run **RegEdit** and check the value of the
     **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive – the version should be successfully updated to Windows Server 2016.
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/0e567f3f18cd7a82ef3eb8f823c1deb0.png)
+
+<br>
 
 3. Check that applications are running and that client connections to the applications succeed.
 
