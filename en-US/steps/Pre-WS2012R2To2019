@@ -9,7 +9,7 @@ Windows Server 2012 R2 can be upgraded to Windows Server 2019 in a single upgrad
 In-place Upgrade is supported for Windows Server 2012 R2 on physical hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2012 R2 Virtual Machines to upgrade to Windows Server 2019 – check with your cloud provider.
 
 ### Alternative:
-Migrate (re-deploy)applications and data on a clean install of Windows Server 2019.
+Migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
 
 ### Limitations:
 Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
