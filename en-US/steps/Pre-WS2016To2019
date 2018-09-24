@@ -1,17 +1,30 @@
-<!-- Pre-upgrade -->
-Summary: Windows Server 2016 can be upgraded to Windows 2019 by running Windows Server 2019 setup.exe in a single step.
+<!-- Pre-Upgrade -->
 
-In-place Upgrade is supported for Windows Server 2016 on physicaL hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade on Windows Server 2016 Virtual Machines to upgrade to Windows Server 2019 – check with your cloud provider.
+<hr />
 
-An alternative to In-place Upgrade is to migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
+### Upgrade path:
 
-### Limitations and Known Issues with In-place Upgrade from Windows ServeR 2016 to Windows Server 2019
+ > Windows Server 2016 can be upgraded to Windows 2019 in a single upgrade process.
 
-   - Customers using Windows Server 2016 Storage Spaces Direct (S2D) clusters (also known as Software Defined Data Center [SDDC] and Hyper-Converged Infrastructure [HCI]) should contract Microsoft for guidance before upgrading these clusters.
+### Support:
 
-  - Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
+ > In-place Upgrade is supported for Windows Server 2016 on physicaL hardware, and in Virtual Machines. Public and private cloud companies also support In-place Upgrade on Windows Server 2016 Virtual Machines to upgrade to Windows Server 2019 – check with your cloud provider.
 
-### Planning for In-place Upgrade
+### Alternative:
+ 
+ > Migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
+
+### Limitations:
+
+> - For the smoothest upgrade experience, if you've deployed software-defined datacenter (SDDC) features like Software-Defined Networking (SDN) or Storage Spaces Direct, you are encouraged to wait for validated hardware from the Windows Server Software-Defined (WSSD) program to become available. The first wave of validated hardware is expected very soon; in mid-January 2019. Until then, please evaluate Windows Server 2019 using the [Windows Insider edition](https://docs.microsoft.com/en-us/windows-insider/at-work), or call Microsoft support for recommendations on how to proceed.
+
+> - Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
+
+<br>
+
+## Planning for In-place Upgrade
+
+<hr />
 
 Before proceeding with In-place Upgrade, collect the following information:
 
@@ -20,6 +33,8 @@ Before proceeding with In-place Upgrade, collect the following information:
 - Is this a production-critical server?
 
 - Is there a maintenance window for upgrading this server?
+
+- Is there enough time for a test upgrade on an identical or similar non-production server?
 
 - Who uses this server? Internal users, external users, or both? Have they been informed of the upgrade or maintenance?
 
@@ -51,24 +66,34 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Run **systeminfo.exe** and save the output:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/0b6bc37b6da1be1685bf5aeabf949f10.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/0b6bc37b6da1be1685bf5aeabf949f10.png)
+
+<br>
 
 - Run **ipconfig /all** and save the output:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/bfee62abfa929137f3eafe043b38b8e8.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/bfee62abfa929137f3eafe043b38b8e8.png)
+
+<br>
 
 - Run **Get-WindowsFeature** and save the output:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/82742223b3dd3e5567b6a8a48f463ea4.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/82742223b3dd3e5567b6a8a48f463ea4.png)
+
+<br>
 
 - Run **RegEdit** and capture the value of the the
     **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive
     – this will show the exact version (**BuildLabEx**) and edition
     (**EditionID**) of Windows Server:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/b82ffbb1d0b1f684db9f7d677db65c42.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/b82ffbb1d0b1f684db9f7d677db65c42.png)
 
-### Before proceeding with the In-place Upgrade:
+<br>
+
+## Before proceeding with the In-place Upgrade
+
+<hr />
 
 1.  Backup the Operating System, Applications, and Virtual Machines.
 

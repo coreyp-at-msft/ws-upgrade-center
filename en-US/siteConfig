@@ -2,7 +2,7 @@
   "menu": [
     {
       "title": "Windows Server 2008R2",
-      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2008R2.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2008R2-menu-logo.png",
       "pages": [
         {
           "name": "Windows Server 2012",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Windows Server 2012",
-      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012-menu-logo.png",
       "pages": [
         {
           "name": "Windows Server 2016",
@@ -39,7 +39,7 @@
     },
     {
       "title": "Windows Server 2012R2",
-      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012R2.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012R2-menu-logo.png",
       "pages": [
         {
           "name": "Windows Server 2019",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Windows Server 2016",
-      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2016.jpg",
+      "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2016-menu-logo.png",
       "pages": [
         {
           "name": "Windows Server 2019",
