@@ -42,10 +42,15 @@
       "logo": "https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/WS2012R2-menu-logo.png",
       "pages": [
         {
+          "name": "Windows Server 2016",
+          "longname": "Windows Server 2016 On-Prem",
+          "URL": "/upgradecenter/scenario/WS2012R2-on-prem-to-WS2016"
+          },
+        {
           "name": "Windows Server 2019",
-          "longname": "Windows Server 2019 On-Prem",
+          "longname": "Windows Server 2019",
           "URL": "/upgradecenter/scenario/WS2012R2-on-prem-to-WS2019"
-          }
+        }
       ]
     },
     {
