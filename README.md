@@ -1,7 +1,7 @@
-# Migration Guide - Contributor Guide
-Microsoft's Database Migration Guide (DM Guide) is hosted at https://datamigration.microsoft.com.
+# Windows Server Upgrade Guide - Contributor Guide
+Microsoft's Windows Server Upgrade Guide is hosted at http://upgradecenter.azurewebsites.net.
  
-The content repository for the DM Guide is hosted at https://github.com/MicrosoftDocs/MigrationPlaybookContent.
+The content repository for the Windows Server Upgrade Guide is hosted at https://github.com/coreyp-at-msft/ws-upgrade-center.
 
 This document serves as a guide for potential contributors to help them better understand the files, their structure, how to edit them, and how to create new ones.
 
@@ -18,9 +18,9 @@ This document serves as a guide for potential contributors to help them better u
 **Note:** When you are ready to make changes, be sure you are working against the "Dev" branch. Any changes made directly to either the "PreProd" or "Prod" branches will not be recognized.
 
 ## Structural overview of the GitHub repository
-The files and folders within the GitHub repository are organized in a specific structure, which must be maintained. The structure is not overly complicated and allows for a degree of flexibility. In general, files are separated into discrete folders, which makes them resuable for different scenarios.
+The files and folders within the GitHub repository are organized in a specific structure, which must be maintained. The structure is not overly complicated and allows for a degree of flexibility. In general, files are separated into discrete folders, which makes them reusable for different scenarios.
 
-All files except those associated with "steps" are in JSON format. Step files, which make up the bulk of the actual content of the Migration Guide, are in Markdown format. Additional information about basic rules of [JSON](#json), [step files](#steps), and Markdown format (see this [cheat sheet](#markdown)) are provided later in this document.
+All files except those associated with "steps" are in JSON format. Step files, which make up the bulk of the actual content of the Upgrade Guide, are in Markdown format. Additional information about basic rules of [JSON](#json), [step files](#steps), and Markdown format (see this [cheat sheet](#markdown) are provided later in this document.
 
 ### Top-level folders and files
 The top level of the repository contains an `en-US` folder, which includes files for the default language (United States English). All content is first being delivered in English, and any future translations will be based on the content in the `en-US` folder.
@@ -41,7 +41,7 @@ The top level of the repository also contains the following files:
 
 `siteConfigTemplate` - An example for the structure of the siteConfig file.
 
-`sitemap.xml` - This file provides search engine robots with the important discoverable URLs of the [Migration Guide](https://datamigration.microsoft.com). If you create a new scenario, you definitely need to update this file by including a new `<url>` tag and a new `<loc>` tag, which will contain the direct URL to the new scenario. For example:
+`sitemap.xml` - This file provides search engine robots with the important discoverable URLs of the [Upgrade Guide](http://upgradecenter.azurewebsites.net). If you create a new scenario, you definitely need to update this file by including a new `<url>` tag and a new `<loc>` tag, which will contain the direct URL to the new scenario. For example:
 ```HTML
   ...
   <url>
@@ -55,42 +55,31 @@ Within the `en-US` folder, there are two files, `readme` and `siteConfig`, as we
 
 #### SiteConfig
 Along with various subfolders, the `en-US` folder contans a `siteConfig` file in JSON format.  The file has three main sections:
-* [questions](#questions)
+* [menu](#menu)
+* [commonChoices](#commonChoices)
 * [caseStudies](#caseStudies)
 * [scenarioMap](#scenarioMap)
 
-##### "questions"
-This section contains the questions presented to users, together with possible answers. Currently, there are only two questions - `source` and `target`. When a user selects a specific source and target, the selection maps to a specific `scenario`. Generally, you will only edit this section to add an option to `source` and/or `target`. Simply add a data source enclosed in double quotation marks to the `options` list, making sure that each option except the last one is followed by a comma. For example:
-```
-...
-"options":[
-    "SQL Server",
-    "Oracle",
-    "DB2",
-    "MySQL",
-    "Sybase",
-    "Access",   // a comma was added here since it was the old last item
-    "Teradata"  // no comma should be here since it is the new last item in a list
-],
-...
-```
+##### "menu"
+This section contains the options for `source` and `target`. When a user selects a specific source and target, the selection maps to a specific `scenario`. Generally, you will only edit this section to add an option to `source` and/or `target`.
+
 An explanation of each of the properties and its expected values are as follows:
 
-  * id
-    * A meaningful name that is unique from all other questions
-    * Must NOT contain spaces, numbers, or special characters (i.e. !@#$%^&\*()-\_\[]{};:'",.<>/?\|\`~)
-  * text
-    * The text of the question as displayed to the user.
-  * options
-    * The list of options of the question as displayed to the user.
-  * required
-    * Whether the response to a question is required or optional.
-    * Accepts "true" or "false".
-    * Currently, only the two questions marked as required are `source` and `target`; optional questions are
-      placeholders for future features.
+  * title
+    * Definition
+  * logo
+    * Definition
+  * pages
+    * Definition
+  * name
+    * Definition
+  * longname
+    * Definition
+  * url
+    * Definition
 
 ##### "caseStudies"
-This section contains case studies of how other companies have benefited from migrating to Microsoft SQL technologies. Each item in this section has a single property, `filelocation`, the value of which references a file within the `caseStudies` folder. The value is in relation to the `caseStudies` folder, so it should ***not*** include any part of the path from the root of the repository to the `caseStudies` folder. See the following example.
+This section contains case studies of how other companies have benefited from Upgrading their Windows Servers. Each item in this section has a single property, `filelocation`, the value of which references a file within the `caseStudies` folder. The value is in relation to the `caseStudies` folder, so it should ***not*** include any part of the path from the root of the repository to the `caseStudies` folder. See the following example.
 ```
 ...
   {
@@ -117,12 +106,12 @@ Consider the following emaple:
 Based on the current `siteConfig` file, a user selecting the first option for source (since Javascript has zero-based indexes this maps to 0) and the first option for target would be directed (mapped) to the file named "sql-to-sqlserver2016."
 
 ## Other Migration Guide components
-Other components of the Migration Guide include scenarios, items, steps, actions, partners, and case studies. Each component is explained in further detail in the following sections.
+Other components of the Upgrade Guide include scenarios, items, steps, actions, partners, and case studies. Each component is explained in further detail in the following sections.
 
 ### Scenarios
-Within the context of the Migration Guide, a *scenario* is a collection of steps that define the process of migration from one data source to one of Microsoft's database technologies (e.g SQL Server of Azure SQL).
+Within the context of the Upgrade Guide, a *scenario* is a collection of steps that define the process of upgrading Windows Server.
 
-Each scenario is defined by a specific file located in the `scenarios` folder. Each file contains all the metadata necessary to display a single scenario and everything associated with it. The content of a scenario is displayed in two sections: Business and Technical. Each of these sections is further broken down into the "steps" that a user would go through either to justify the migration (Business) or to carry it out (Technical). Each "step" is a file located in the `steps` folder, and the contents appear in Markdown format.
+Each scenario is defined by a specific file located in the `scenarios` folder. Each file contains all the metadata necessary to display a single scenario and everything associated with it. The content of a scenario is displayed in two sections: Business and Technical. Each of these sections is further broken down into the "steps" that a user would go through either to justify the upgrade (Business) or to carry it out (Technical). Each "step" is a file located in the `steps` folder, and the contents appear in Markdown format.
 
 An explanation of each of the properties and its expected values follows:
 
@@ -133,8 +122,8 @@ An explanation of each of the properties and its expected values follows:
   * description
     * Used in the scenario page's <meta content=""> tag, description text is useful for Search Engine Optimization.
   * steps
-    * A collection of objects containing names and lists of `items`, or "steps," explaining how to proceed with migrating to Microsoft SQL technologies. The `item` format is explained [below](#items). 
-    * As a matter of convention, there are 4 steps; "Migration Planning", "Pre-Migration", "Migration", and "Post-Migration". While you can change these names, you are advised to do so with caution.
+    * A collection of objects containing names and lists of `items`, or "steps," explaining how to proceed with upgrading Windowqs Server. The `item` format is explained [below](#items). 
+    * As a matter of convention, there are 3 steps; "Pre-Migration", "Migration", and "Post-Migration". While you can change these names, you are advised to do so with caution.
     * The format of "step" files are explained in their own section [below](#steps)
   * Partners and for Case Studies.
       * These are collections of entities that point to related Partners or Case Studies.
@@ -160,10 +149,10 @@ An explanation of each of the properties and its expected values follows:
         * The location of the action file in relation to the `actions` folder. As with each occurence of "filelocation", do ***not*** include `actions` or any folder above it in the path entered here.
 
 ### Steps
-*Steps* provide the "real" content that makes up the Migration Guide. Step files, which are in [Markdown](http://commonmark.org/) format, reside in their own `steps` folder. A step describes an individual concept or unit of work during the migration process. To ensure that step content is relatively easy for the user to navigate, it is recommended to minimize step content without unnecessarily splitting related work. To help you make sense to Markdown, we've created a cheat sheet [below](#markdown).
+*Steps* provide the "real" content that makes up the Upgrade Guide. Step files, which are in [Markdown](http://commonmark.org/) format, reside in their own `steps` folder. A step describes an individual concept or unit of work during the migration process. To ensure that step content is relatively easy for the user to navigate, it is recommended to minimize step content without unnecessarily splitting related work. To help you make sense to Markdown, we've created a cheat sheet [below](#markdown).
 
 #### IMPORTANT!
-The first line of any step file must be the title you want displayed to the user in the Migration Guide's navigation bar. It must be enclosed in an html comment. For example:
+The first line of any step file must be the title you want displayed to the user in the Upgrade Guide's navigation bar. It must be enclosed in an html comment. For example:
 
 `<!-- Assessment -->`
 
@@ -179,7 +168,7 @@ An explanation of each of the properties its expected values follows:
     * The URL of the external resource.
 
 ### Partners and Case Studies
-*Partners* and *Case Studies* are related online documents describing how our partners are using our technologies or how a company switched to Microsoft SQL technologies, respectively. While partner and case studies files are stored in separate folders, both are covered in this  section because they are in JSON format and share the same properties.
+*Partners* and *Case Studies* are related online documents describing how our partners are using Windows Server. While partner and case studies files are stored in separate folders, both are covered in this section because they are in JSON format and share the same properties.
 
 An explanation of each of the properties and its expected values follows:
 
