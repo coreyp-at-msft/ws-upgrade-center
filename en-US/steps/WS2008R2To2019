@@ -110,7 +110,7 @@
 
 <br>
 
-6.  For internet-connected devices, we recommend the **Download updates, drivers and optional features option**, click **Next**:
+6.  For internet-connected devices, we recommend the **Download updates, drivers and optional features option**. Click **Next**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/9bf1135b71ee60f77f78b5995a48952c.png)
 
@@ -150,7 +150,7 @@
 
    > **Note:** this pages has been removed from Windows Server 2019 setup.exe. Press **Confirm**:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/9a877f6eef7ced554fb1b6e613eb70d6.png)
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/9a877f6eef7ced554fb1b6e613eb70d6.png)
 
 <br>
 
@@ -160,7 +160,7 @@
 
 <br>
 
-14. To remove Endpoint Protection: Open the Control Panel \| Programs and Features, and Uninstall using the
+14. To remove Microsoft Endpoint Protection: Open the Control Panel \| Programs and Features, and Uninstall using the
     right-mouse menu option:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/8a197d726baeb91f5a29dbf7ef05355e.png)
@@ -233,7 +233,7 @@
 
 <br>
 
-6. For internet-connected devices, we recommend the **Download updates, drivers and optional features option**, click **Next**:
+6. For internet-connected devices, we recommend the **Download updates, drivers and optional features option**. Click **Next**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/d02beed2270efba4731b5e43b3214636.png)
 
@@ -247,7 +247,7 @@
 
 8.  Depending on the distribution channel that you received Windows Server media from (Retail, Volume License, OEM, ODM, etc.) and the license for the server, you may be prompted to enter a licensing key to proceed.
 
-9.  You will be prompted to select the image of the Edition to upgrade to, and press **Next**:
+9.  You will be prompted to select the image of the Edition to upgrade to. Then click **Next**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/6865f8bfb71d48c49177c81d4de93304.png)
 
@@ -259,7 +259,7 @@
 
 <br>
 
-11. For In-place Upgrade, select **Keep personal files and apps** and click **Next**:
+11. For In-place Upgrade, select "**Keep personal files and apps**" and then click **Next**:
 
     ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/91a80f34d104f29602aada11ccc07c28.png)
 
