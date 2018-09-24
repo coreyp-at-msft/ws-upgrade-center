@@ -14,6 +14,8 @@ Migrate (re-deploy)applications and data on a clean install of Windows Server 20
 ### Limitations:
 Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
+<br>
+
 ## Planning for In-place Upgrade
 
 <hr />
@@ -57,15 +59,27 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 -  Run **systeminfo.exe** and save the output:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/5552ad36808b2dd8a087cc06f08e5ac8.png)
+<br>
+
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/5552ad36808b2dd8a087cc06f08e5ac8.png)
+
+<br>
 
 - Run **ipconfig /all** and save the output:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/f7761985ba3930a6bb1a3fdc36336c0a.png)
+<br>
+
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/f7761985ba3930a6bb1a3fdc36336c0a.png)
+
+<br>
 
 - Run **Get-WindowsFeature** and save the output:
 
-    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/faef3f1ee8226a0f672f16fdc752ca1c.png)
+<br>
+
+   ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/faef3f1ee8226a0f672f16fdc752ca1c.png)
+
+<br>
 
 - Run **RegEdit** and capture the value of the
     **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive – this will show the exact version (**BuildLabEx**) and edition (**EditionID**) of Windows Server:
