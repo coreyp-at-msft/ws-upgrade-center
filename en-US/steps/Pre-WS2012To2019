@@ -20,6 +20,8 @@ Windows Servers configured to “Boot from VHD” cannot be upgraded using In-pl
 
 ## Planning for In-place Upgrade
 
+<hr />
+
 Before proceeding with In-place Upgrade, collect the following information:
 
 - Is there a target or goal timeframe for upgrading this server?
