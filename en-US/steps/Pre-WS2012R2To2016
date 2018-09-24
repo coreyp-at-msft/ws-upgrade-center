@@ -4,7 +4,7 @@
 
 ### Upgrade path: 
 
- > Windows Server 2012 R2 can be upgraded to Windows Server 2019 in a single upgrade process.
+ > Windows Server 2012 R2 can be upgraded to Windows Server 2016 in a single upgrade process.
 
 ### Support:
 
@@ -12,7 +12,7 @@
 
 ### Alternative:
 
- > Migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
+ > Migrate (re-deploy) applications and data on a clean install of Windows Server 2016.
 
 ### Limitations:
 
