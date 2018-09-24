@@ -58,23 +58,17 @@ Before proceeding with In-place Upgrade, collect the following information:
 
 - Run **systeminfo.exe** and save the output:
 
-<br>
-
    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/3227919c53ffae4e5553ed993552d935.png)
 
 <br>
 
 - Run **ipconfig /all** and save the output:
 
-<br>
-
    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/3a5300b8bb907c4320cd3113cd767e33.png)
 
 <br>
 
 - Run **Get-WindowsFeature** and save the output:
-
-<br>
 
    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/b95d05e065b0784c1f2c4a72588811b3.png)
 
@@ -84,8 +78,6 @@ Before proceeding with In-place Upgrade, collect the following information:
     **HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion** hive
     – this will show the exact version (**BuildLabEx**) and edition
     (**EditionID**) of Windows Server:
-
-<br>
 
    ![](https://raw.githubusercontent.com/coreyp-at-msft/ws-upgrade-center/dev/en-US/media/61741fa1cdfc0485c9dacff9f06955cc.png)
 
