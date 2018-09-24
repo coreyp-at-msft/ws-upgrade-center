@@ -3,16 +3,20 @@
 <hr />
 
 ### Upgrade path: 
-Windows Server 2008 R2 can be upgraded to Windows Server 2019 in three consecutive upgrade processes - first by upgrading to Windows Server 2012, and then upgrading Windows Server 2012 to Windows Server 2016, and then upgrading from Windows Server 2016 to Windows Server 2019.
+
+ > Windows Server 2008 R2 can be upgraded to Windows Server 2019 in three consecutive upgrade processes - first by upgrading to Windows Server 2012, and then upgrading Windows Server 2012 to Windows Server 2016, and then upgrading from Windows Server 2016 to Windows Server 2019.
 
 ### Support: 
-In-place Upgrade is supported for Windows Server versions 2008 R2, 2012 R2 and 2016 on physical hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade of Windows Server versions 2008 R2, 2012 and 2016 Virtual Machines – check with your cloud provider.
+
+ > In-place Upgrade is supported for Windows Server versions 2008 R2, 2012 R2 and 2016 on physical hardware, and in Virtual Machines. Public and private cloud companies also support In-place upgrade of Windows Server versions 2008 R2, 2012 and 2016 Virtual Machines – check with your cloud provider.
 
 ### Alternative: 
-Migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
+
+ > Migrate (re-deploy) applications and data on a clean install of Windows Server 2019.
 
 ### Limitations:
-Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
+
+ > Windows Servers configured to “Boot from VHD” cannot be upgraded using In-place Upgrade.
 
 <br>
 
@@ -49,7 +53,9 @@ Before proceeding with In-place Upgrade, collect the following information:
 - How often is the server backed-up? Have backups ever been successfully restored (applied) to the server or applications?
 - What backup software is used?
 
-- If In-place Upgrade is not successful and the server needs to be rebuilt, are the Windows Server and application install media available? Although it is rare, In-place Upgrade can fail and there should be a plan in-place for this possibility, to minimize server downtime and maintain SLAs.
+- If In-place Upgrade is not successful and the server needs to be rebuilt, are the Windows Server and application install media available? 
+   
+   > Although it is rare, In-place Upgrade can fail and there should be a plan in-place for this possibility, to minimize server downtime and maintain SLAs.
 
 - Is the server fully patched? It is strongly recommended that the server is fully patched prior to In-place Upgrade.
 
