@@ -1,0 +1,79 @@
+{
+
+  "displayname": "Upgrade Windows Server 2012 R2 to Windows Server 2016",
+
+  "emailmessage": "Check out the process for upgrading Windows Server 2012 R2 to Windows Server 20116 here:",
+
+  "description": "How to upgrade Windows Server 2012 R2 to Windows Server 20116",
+
+  "rationale": "SqlDbRationaleStatic",
+
+  "overview": "DbMigrationProcessOverviewStatic",
+
+  "steps": [
+
+    {
+
+      "name": "Pre-upgrade",
+
+      "items": [
+
+        {
+
+          "filelocation": "Pre-WS2012R2To2016",
+
+          "actions": []
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "name": "Upgrade",
+
+      "items": [
+
+        {
+
+          "filelocation": "WS2012R2To2016",
+
+          "actions": []
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "name": "Post-upgrade",
+
+      "items": [
+
+        {
+
+          "filelocation": "Post-WS2012R2To2016",
+
+          "actions": []
+
+        }
+
+      ]
+
+    }
+
+  ],
+
+  "casestudies": [
+
+  ],
+
+  "partners": [
+
+  ]
+
+}
